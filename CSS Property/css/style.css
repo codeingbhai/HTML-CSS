@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.main-content{
+    width: 200px;   
+    /* background-color: aqua; */
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px 20px ;
+    margin: 20px 0;
+}
+.pointer{
+    cursor: pointer;
+    cursor: ;
+}

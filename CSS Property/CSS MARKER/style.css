@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEEEEE;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    /* transition: 0.5s; */
+    /* padding: 15px 40px; */
+    /* border: 2px solid black; */
+}
+li{
+    transition: 0.5s;
+}
+li::marker{
+    content:"❤️";
+}
